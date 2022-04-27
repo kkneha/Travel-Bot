@@ -1,0 +1,6 @@
+.chatbot-page{
+    display: flex;
+    /* margin: auto 20px; */
+    justify-content: center;
+    align-content: center;
+}

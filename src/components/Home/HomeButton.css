@@ -1,0 +1,12 @@
+.chatwith-btn{
+    display: flex;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #EDE580;
+    color: #442B48;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    margin: 50px auto;
+}

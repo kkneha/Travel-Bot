@@ -1,0 +1,10 @@
+.bot-container{
+    display: flex;
+}
+
+.bot-text{
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+    font-weight: 400;
+    color: #442B48;
+}

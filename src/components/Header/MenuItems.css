@@ -1,0 +1,14 @@
+.menu-items{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.menu-options{
+    padding: 25px;
+    font-size: 90%;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #E5E5E5;
+}

@@ -1,0 +1,11 @@
+.user-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.user-text{
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+    font-weight: 400;
+    color: #442B48;
+}
