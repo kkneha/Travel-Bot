@@ -1,3 +1,4 @@
 node_modules
-venv
-\models
+server/models/*.h5
+server/src/__pycache__/
+
