@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  /* position: relative; */
+}
+
+.bot-bubble {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.user-bubble {
+  display: flex;
+  max-width: 250px;
+  /* width: fit-content; */
+  height: max-content;
+  margin: 10px 0 10px auto;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #442b48;
+  max-width: 250px;
+  white-space:pre-wrap;
+}
+/* .bubble-content{
+
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+    font-weight: 400;
+    color: #442B48;
+} */

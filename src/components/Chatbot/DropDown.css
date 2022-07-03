@@ -1,0 +1,38 @@
+.choice-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+    background-color: #F2EDF3;
+    margin: 10px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.choice-button label{
+    margin: 4px 0;
+}
+
+.choice-button{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 5px 0;
+    width: 120px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.choice-button:hover{
+    transform: scale(1.1);
+}
+
+.choice-button:active{
+    border-color:black;
+}

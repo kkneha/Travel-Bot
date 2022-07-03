@@ -2,10 +2,11 @@
     display: flex;
     width: 100%;
     flex: 0.6;
-    flex-direction: column-reverse;
+    flex-direction: column;
     background-color: #9BC1BC;
     margin: 0px auto;
     border-radius: 4px;
     padding: 20px;
-    overflow: scroll;
+    height: 90vh;
+    /* overflow: scroll; */
 }

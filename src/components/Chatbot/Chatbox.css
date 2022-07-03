@@ -1,0 +1,7 @@
+.chatbox{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: scroll;
+    padding: 10px;
+    height: 90vh;
+}

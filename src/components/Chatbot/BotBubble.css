@@ -1,5 +1,7 @@
 .bot-container{
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bot-text{
