@@ -1,0 +1,24 @@
+
+.chatbot-content{
+    display: flex;
+    margin-left: 30px;
+    flex: 0.3;
+    height:90vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.chatbot-heading{ 
+    font-family: 'Raleway', sans-serif;
+    color: #FAE151;
+    font-size: 100px;
+    text-align: center;
+}
+
+.chatbot-paragraph{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #442B48;
+} 

@@ -56,7 +56,7 @@ class Response():
     
     def predict_model(self, input):
         classes = ["Hotel", "Flights", "Iterarnary"]
-        model_path = 'models\\intentClassification.h5'
+        model_path = 'server\\models\\intentClassification.h5'
         model = tf.keras.models.load_model(model_path)
         output = model.predict(np.expand_dims(input, axis=0))
         c = np.argmax(output)
@@ -64,7 +64,7 @@ class Response():
         return classes[c]
 
     def preprocess_text(self, input):
-        with open("dependancies\\bow.pickle", "rb") as file:
+        with open("server\\dependancies\\bow.pickle", "rb") as file:
             bow = pickle.load(file)
         stop_words = set(stopwords.words('english'))
         word_tokens = word_tokenize(input)

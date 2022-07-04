@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
-import BotBubble from "./BotBubble";
+import React, { useState } from "react";
 import "./InputBox.css";
-import UserBubble from "./UserBubble";
+
 
 
 export default function InputBox({onInputText}) {

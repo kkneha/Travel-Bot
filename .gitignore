@@ -1,4 +1,5 @@
 node_modules
 server/models/*.h5
 server/src/__pycache__/
+server/__pycache__
 
