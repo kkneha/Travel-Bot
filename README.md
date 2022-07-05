@@ -1,5 +1,3 @@
-Hi I am Neha, I have recently completed my Integrated M.Tech in CSE. I like working on Python, Frontend, CNN, NLP and much more. You can check out TravelBot and help me add more functionalities.
-
 # Travel-Bot
 As we all know tour packages are costly, if we travel without any tour agencies, that is plan on our own, it can save lots of money. To save time planning the whole trip, I thought of TB, not Tuberculosis but TravelBot, who can help with you planning your whole trip. 
 
