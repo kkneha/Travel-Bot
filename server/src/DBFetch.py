@@ -10,7 +10,7 @@ from src.Response import Response
 
 class DBFetch(Resource):
     def __init__(self):
-        mongo = PyMongo(app, uri="mongodb+srv://kkneha:nehabloom04@chatbot-cluster.1qtfe.mongodb.net/chatbot-data")
+        mongo = PyMongo(app, uri="") #your own URI
         self.mongo = mongo.db
 
     def post(self):
